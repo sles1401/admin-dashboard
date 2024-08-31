@@ -20,7 +20,7 @@ const Products = () => {
             <ul className="list-group">
                 {products.map(product => (
                     <li key={product.ID_PRODUK} className="list-group-item">
-                        {product.NAMA_PRODUK} - ${product.HARGA_JUAL}
+                        {product.NAMA_PRODUK} - Rp.{product.HARGA_JUAL}
                     </li>
                 ))}
             </ul>
